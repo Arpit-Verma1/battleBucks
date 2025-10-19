@@ -6,7 +6,11 @@ A modern iOS application built with SwiftUI that displays posts from JSONPlaceho
 
 BattleBucks is a clean, well-architected iOS app that demonstrates modern iOS development practices including MVVM architecture, Combine framework, and proper code organization. The app fetches posts from a public API and allows users to mark posts as favorites.
 
-## 🛠 Technical Specifications
+##
+
+https://github.com/user-attachments/assets/7555c551-3082-4269-8eaa-21de6612342f
+
+ 🛠 Technical Specifications
 
 ### iOS & Xcode Requirements
 - **iOS Deployment Target**: 18.5
