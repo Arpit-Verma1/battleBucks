@@ -1,0 +1,84 @@
+included:
+  - App
+  - Mac
+  - iOS
+excluded:
+  - Pods
+  - DerivedData
+  - AppPlayground.playground
+
+disabled_rules:
+  - trailing_whitespace
+
+opt_in_rules:
+  - explicit_init
+  - fatal_error_message
+  - empty_count
+  - discouraged_optional_collection
+  - implicit_optional_initialization
+  - sorted_imports
+  - force_unwrapping
+  - discarded_notification_center_observer
+  - todo
+  - yoda_condition
+  - unused_parameter
+  - unused_setter_value
+  - unused_optional_binding
+
+analyzer_rules:
+  - unused_import
+  - unused_declaration
+
+line_length:
+  warning: 150
+  error: 200
+
+identifier_name:
+  excluded:
+    - id
+    - x
+    - y
+    - ok
+
+trailing_comma:
+  mandatory_comma: true
+
+type_name:
+  min_length: 3
+  max_length: 60
+
+file_length:
+  warning: 500
+  error: 800
+
+type_body_length:
+  warning: 400
+  error: 600
+
+cyclomatic_complexity:
+  warning: 12
+  error: 20
+
+function_body_length:
+  warning: 300
+  error: 400
+
+function_parameter_count:
+  warning: 8
+  error: 10
+
+lenient: true
+
+reporter: "xcode"
+
+unused_parameter:
+  severity: error
+
+unused_setter_value:
+  severity: error
+
+unused_optional_binding:
+  severity: error
+
+unused_declaration:
+  severity: error
